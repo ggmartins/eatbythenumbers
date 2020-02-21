@@ -1,0 +1,108 @@
+  .wrapper {
+      position: relative;
+      width: 950px;
+      height: 450px;
+      overflow: hidden;
+      margin: 10px; }
+      .wrapper > i {
+        display: block;
+        position: absolute; 
+      }
+      .wrapper > i.top {
+        top: 0;
+        border-top: 5px solid rgba(0, 0, 0, 0.15); 
+      }
+      .wrapper > i.top:after {
+        top: -10px;
+        border-top: 5px solid white; 
+      }
+      .wrapper > i.right {
+        right: 0;
+        border-right: 5px solid rgba(0, 0, 0, 0.15); 
+      }
+      .wrapper > i.right:after {
+        right: -10px;
+        border-right: 5px solid white; 
+      }
+      .wrapper > i.bottom {
+        bottom: 0;
+        border-bottom: 5px solid rgba(0, 0, 0, 0.15); 
+      }
+      .wrapper > i.bottom:after {
+        bottom: -10px;
+        border-bottom: 5px solid white; 
+      }
+      .wrapper > i.left {
+        left: 0;
+        border-left: 5px solid rgba(0, 0, 0, 0.15); 
+      }
+      .wrapper > i.left:after {
+        left: -10px;
+        border-left: 5px solid white; 
+      }
+      .wrapper > i.top:not(.right):not(.left), .wrapper > i.bottom:not(.right):not(.left) {
+        height: 5px;
+        left: 15px;
+        right: 15px; 
+      }
+      .wrapper > i.left:not(.top):not(.bottom), .wrapper > i.right:not(.top):not(.bottom) {
+        width: 5px;
+        top: 15px;
+        bottom: 15px; 
+      }
+      .wrapper > i.top.right, .wrapper > i.top.left, .wrapper > i.bottom.right,
+        .wrapper > i.bottom.left {
+          width: 10px;
+          height: 10px; 
+      }
+      .wrapper > i.top.right:after, .wrapper > i.top.left:after,
+        .wrapper > i.bottom.right:after, .wrapper > i.bottom.left:after {
+          content: "";
+          position: absolute;
+          width: 15px;
+          height: 15px; 
+      }
+      .wrapper > i.top.right {
+        border-top-right-radius: 10px; 
+      }
+      .wrapper > i.top.right:after {
+        border-top-right-radius: 15px; 
+      }
+      .wrapper > i.top.left {
+        border-top-left-radius: 10px; 
+      }
+      .wrapper > i.top.left:after {
+        border-top-left-radius: 15px; 
+      }
+      .wrapper > i.bottom.right {
+        border-bottom-right-radius: 10px; 
+      }
+      .wrapper > i.bottom.right:after {
+        border-bottom-right-radius: 15px; 
+      }
+      .wrapper > i.bottom.left {
+        border-bottom-left-radius: 10px; 
+      }
+      .wrapper > i.bottom.left:after {
+        border-bottom-left-radius: 15px; 
+      }
+
+      #map-canvas {
+        width: inherit;
+        height: inherit; 
+      }
+
+      a[href^="http://maps.google.com/maps"]{display:none !important}
+      a[href^="https://maps.google.com/maps"]{display:none !important}
+
+      .gmnoprint a, .gmnoprint span, .gm-style-cc {
+          display:none;
+      }
+      .gmnoprint div {
+          background:none !important;
+      }
+
+      ul
+      {
+          list-style-type: none;
+      }
