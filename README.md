@@ -1,6 +1,8 @@
 ### Eat By Numbers - Princeton MediHack 2018 - "Most Likely to Become a Startup" Prize
 
-#### Steven Gitarts, Heder Petersen, Guilherme Martins
+#### [Link](https://ggmartins.github.io/eatbythenumbers/)
+
+#### Guilherme Martins, Heder Petersen, Steven Gitarts. 
 
 Instructions:
 
